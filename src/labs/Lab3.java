@@ -5,11 +5,11 @@ public class Lab3 {
     public static void main(String[] args) {
         //Read a file of passwords
         String filename = "/Users/faisalabdulkadir/Desktop/Java Project/JavaTraining/src/labs/passwords.txt";
-        String[] passwords = new String[13];
+        String[] passwords = new String[2];
 
         File file = new File(filename);
 
-        {
+
             try {
                 BufferedReader br = new BufferedReader(new FileReader(file));
                 for (int i = 0; i < passwords.length; i++) {
@@ -24,6 +24,7 @@ public class Lab3 {
                 System.out.println("error: could not read file");
                 //e.printStackTrace();
             }
+
 
             for (String password : passwords) {
                 System.out.println("*********\n" + password);
@@ -41,7 +42,7 @@ public class Lab3 {
                     //condition 2: contains letter
                     else if("abcdefghijklmnopqrstuvwxyz".contains(password.substring(n,n+1).toLowerCase())){
                         hasLetter = true;
-                        //System.out.println("position " + n + "contains a letter");
+                        System.out.println("position " + n + "contains a letter");
                     }
                     //condition 3: contains special character
                     else if("!@#$%^&*()_+-?/|[]{}<>/?~`.,;:=".contains(password.substring(n,n+1))){
@@ -88,9 +89,9 @@ public class Lab3 {
             }
 
 
-            //test agains our criteria
+            //test against our criteria
 
-        }
+
     }
 }
 
