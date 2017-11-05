@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74d362f8-9ebb-4431-9153-5b0c336faad6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataStructures/Arrays.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -186,6 +185,12 @@
               <item name="JavaTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTraining" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,12 +455,12 @@
       <workItem from="1509814844636" duration="7890000" />
       <workItem from="1509830754875" duration="31000" />
       <workItem from="1509843383732" duration="558000" />
-      <workItem from="1509848562761" duration="4964000" />
+      <workItem from="1509848562761" duration="5496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55272000" />
+    <option name="totallyTimeSpent" value="55804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
